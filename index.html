@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8df9af38e0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="d-flex top-header">
+      <div class="logo-container">
+        <img
+          class="logo-image"
+          src="https://lh3.googleusercontent.com/proxy/-3ew1aN-KjAeArcHqFRshsJmdeF6aybFmUv7MUnr7Sr-2SVqP5YmGd3izF923NESFHfVxDP3ed0O41r9ZExRK1HXWcY2Y-OnQ_kl9UL2"
+          alt="logo"
+        />
+      </div>
+      <nav class="navbar d-flex">
+        <ul class="nav-menu-list horizontal-unstyled">
+          <li class="lighter-text">Dashboard</li>
+          <li>FOYR</li>
+          <li>Site Visit</li>
+          <li>Brochure</li>
+        </ul>
+        <ul class="nav-info-list horizontal-unstyled d-flex">
+          <li><button class="register-button button">Register</button></li>
+          <li><button class="login-button button">LOGIN</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="d-flex">
+      <aside class="sidebar">
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title process-selected">Unit Selection</p>
+            <p class="process-description process-selected-description">
+              Select your Unit
+            </p>
+          </div>
+          <div class="process-logo process-selected-logo dot-selected">
+            <div class="process-logo-image process-logo-image-selected">
+              <i class="fas fa-car"></i>
+            </div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title">Cost Sheet</p>
+            <p class="process-description">Summary of your Unit</p>
+          </div>
+          <div class="process-logo">
+            <div class="process-logo-image">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title">Payment Plan</p>
+            <p class="process-description">Offers Available</p>
+          </div>
+          <div class="process-logo">
+            <div class="process-logo-image"><i class="fas fa-tasks"></i></div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title">KYC</p>
+            <p class="process-description">Buyer's Information</p>
+          </div>
+          <div class="process-logo">
+            <div class="process-logo-image"><i class="fas fa-id-card"></i></div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title">Payment</p>
+            <p class="process-description">10% Payment</p>
+          </div>
+          <div class="process-logo">
+            <div class="process-logo-image"><i class="fas fa-wallet"></i></div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title">Details</p>
+            <p class="process-description">Document Upload</p>
+          </div>
+          <div class="process-logo">
+            <div class="process-logo-image">
+              <i class="fas fa-clipboard-list"></i>
+            </div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+        <div class="side-info-container d-flex">
+          <div class="process-details">
+            <p class="process-title">Agreement</p>
+            <p class="process-description">Signing the document</p>
+          </div>
+          <div class="process-logo">
+            <div class="process-logo-image">
+              <i class="fas fa-file-contract"></i>
+            </div>
+            <div class="gray-circle-image"></div>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <div class="main-intro-container d-flex align-items-center">
+          <div class="main-info-heading">
+            <span class="main-intro-lighter-text">You are viewing</span>
+            <span class="main-intro-purple-text">Edge Master Plan</span>
+          </div>
+          <div class="d-flex">
+            <div class="breadcrumb-menu d-flex">
+              <button class="button breadcrumb-button breadcrumb-button-first">
+                Master Plan
+              </button>
+              <div class="right-chevron-container d-flex align-items-center">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <button class="button breadcrumb-button breadcrumb-button-second">
+                Tower
+              </button>
+              <div class="right-chevron-container d-flex align-items-center">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <button class="button breadcrumb-button">Floor Section</button>
+              <div class="right-chevron-container d-flex align-items-center">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <button class="button breadcrumb-button">Block</button>
+            </div>
+            <div class="filter-button d-flex align-items-center">
+              <div class="slider-icon"><i class="fas fa-sliders-h"></i></div>
+              <p class="filter-text">Filters</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-help-text">
+          Select the unit you want to view on the floor map. Click on it to view
+          details & availability
+        </div>
+      </main>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
